@@ -1,0 +1,47 @@
+{
+  "name": "gmail-hotkey-sender",
+  "version": "1.0.0",
+  "description": "A CLI tool for sending Gmail emails via keyboard shortcuts",
+  "main": "send_email.js",
+  "bin": {
+    "gmail-hotkey-sender": "./send_email.js"
+  },
+  "scripts": {
+    "start": "node send_email.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "gmail",
+    "email",
+    "automation",
+    "cli",
+    "hotkey",
+    "oauth2"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/gmail-hotkey-sender"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "optionalDependencies": {
+    "googleapis": "^128.0.0",
+    "google-auth-library": "^9.0.0"
+  },
+  "files": [
+    "send_email.js",
+    "README.md"
+  ]
+}

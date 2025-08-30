@@ -1,0 +1,38 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.env.*
+token.pickle
+credentials.json
+
+# Node.js
+node_modules/
+dist/
+.env
+*.log
+
+# Go
+bin/
+*.exe
+
+# Rust
+/target
+Cargo.lock
+
+# macOS shortcut script
+*.command~
+
+# Web extension build artifacts (if using bundlers)
+web-extension/dist/
+web-extension/build/
+
+# IDEs/editors
+.vscode/
+.idea/
+*.swp
